@@ -1,3 +1,2 @@
 # CalculadoraPHP
-Calculadora PHP HTML</N>
 FORMULÁRIO CALCULADORA COM PÁGINA HTML E PHP
