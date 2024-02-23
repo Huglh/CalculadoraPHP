@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+
+<body>
+
+    <h1>Calculadora</h1>
+
+    <form method="post" action="calculadora.php">
+        <label>Número 1</label>
+        <input type="number" name="num1"><br><br>
+
+        <label>Número 2</label>
+        <input type="number" name="num2"><br><br>
+
+        <button type="submit" name="soma">Somar</button>
+        <button type="submit" name="subtrair">Subtrair</button>
+        <button type="submit" name="dividir">Dividir</button>
+        <button type="submit" name="multiplicar">Multiplicar</button>
+        <button type="reset" name="limpar">Limpar</button>
+    </form>
+
+    <!-- Espaço para exibir o resultado -->
+    <div id="resultado">
+        <?php include 'calculadora.php'; ?>
+    </div>
+
+</body>
+
+</html>
